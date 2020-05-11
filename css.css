@@ -1,0 +1,8 @@
+body{margin: 0%; width: 100%; background-image: url(FOTO/F2.jpg); background-repeat: no-repeat;background-position: center;background-attachment: fixed; background-size: cover;}
+h1,h4,h5{padding: 5px; text-align: center; color: orange}
+hr{color: grey; width: 100%;}
+.container{ background: rgba(0,0,0,0.8); float: left; position: center; margin:10%; width: 80%; border: solid 3px orange;}
+.div{margin: 5%; width: 90%;}
+p{font-family: cursive; color: white; line-height: 2.5}
+.card{width: 33.2%; float: left;}
+.link{width: 30%; margin-left: 35%; float: left;margin-right: 35%; background-color: orange; padding-top: 10px; padding-bottom: 10px; border: none}
