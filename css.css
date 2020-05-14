@@ -1,8 +1,30 @@
-body{margin: 0%; width: 100%; background-image: url(FOTO/F2.jpg); background-repeat: no-repeat;background-position: center;background-attachment: fixed; background-size: cover;}
-h1,h4,h5{padding: 5px; text-align: center; color: orange}
-hr{color: grey; width: 100%;}
-.container{ background: rgba(0,0,0,0.8); float: left; position: center; margin:10%; width: 80%; border: solid 3px orange;}
+body{font-family: cursive; 	margin: 0%; width: 100%; background-image: url(FOTO/F2.jpg); background-repeat: no-repeat;background-position: center;background-attachment: fixed; background-size: cover;}
+h1{padding: 5px;font-size: 45px; text-align: left; color: orange}
+h4{padding: 5px; font-size: 25px; text-align: center; color: orange}
+h5{padding: 5px; font-size: 15px; text-align: center; color: orange}
+p{font-size: 22px; color: white; line-height: 2.5}
+hr{width: 100%;}
+b{color: orange}
+.container{background: rgba(0,0,0,0.6); float: left; position: center; margin-left: 7%;margin-right: 7%; width: 86%;margin-top: 15%; }
+.containerCard{ background: rgba(0,0,0,0.3); float: left; position: center;width: 100%;}
 .div{margin: 5%; width: 90%;}
-p{font-family: cursive; color: white; line-height: 2.5}
-.card{width: 33.2%; float: left;}
+.card{width: 27.2%; margin-left: 3%;margin-right: 3%; margin-top: 5%; margin-bottom: 5%; box-shadow: 0 0 15px orange; float: left;}
 .link{width: 30%; margin-left: 35%; float: left;margin-right: 35%; background-color: orange; padding-top: 10px; padding-bottom: 10px; border: none}
+nav{box-shadow: 0 0 15px orange; width: 100%; position: fixed; margin: 0%; float: left; background: rgba(0,0,0,0.6);}
+.aNav{color: white;font-size: 20px; float: right; padding: 20px;margin-left: 3%; margin-top: 1%; margin-right: 1%; border: 1px orange solid; border-radius: 5px; text-decoration: none;}
+.aNav:hover{ background-color: orange; color: black }
+footer{width: 100%; margin: 0%; float: left; background: rgba(0,0,0,0.6);}
+.aContattaci{color: white;font-size: 20px; padding: 30px;margin: 3%; float: left; border: 1px orange solid; border-radius: 5px; text-decoration: none;}
+.icon-bar {position: fixed;box-shadow: 0 0 15px black; top: 59%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);}
+.icon-bar a {display: block;text-align: center;padding: 16px;transition: all 0.3s ease;color: white;font-size: 30px;}
+.icon-bar a:hover {background-color: #000;}
+.facebook {background: orange;border-bottom: black solid 1px;color: white;}
+.linkedin {background: orange;border-bottom: black solid 1px;color: white;}
+.youtube {background: orange;border-bottom: black solid 1px;color: white;}
+.instagram {background: orange;border-bottom: black solid 1px;color: white;}
+.content {margin-left: 75px;font-size: 30px;}
+.logo{float: left; margin: 1%;width: 70px; height: auto; border-radius:100%; border: solid 3px black;}
+table{background: rgba(0,0,0,0.3); float: left; position: center; width: 100%; margin-bottom: 5%; margin-top: 5%;}
+th{color: orange; font-size: 25px; box-shadow: 0 0 10px orange; padding:30px}
+tr{ box-shadow: 0 0 10px orange}
+td{color: white; padding: 20px;font-size: 20px;text-align: center;}
