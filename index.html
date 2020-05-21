@@ -7,30 +7,64 @@
 	<link rel="icon" href="FOTO/logo.png">
 </head>
 <body>
-
+<nav>	
+    <!-- <a class="aNav" href="index.html">HOME</a> -->
+<!--   	<a class="aNav" href="servizi.html">SERVIZI</a> 
+  	<a class="aNav" href="chisiamo.html">CHI SIAMO</a> -->
+  	<a class="aNav" href="">CONTATTACI</a>
+  	<img class="logo" src="FOTO/logo.png">
+</nav>
 <div class="icon-bar">
   <a href="" class="facebook"><i class="fa fa-facebook"></i></a> 
   <a href="" class="instagram"><i class="fa fa-instagram"></i></a> 
   <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
   <a href="" class="youtube"><i class="fa fa-youtube"></i></a> 
 </div>
-<nav>	
-    <a class="aNav" href="/html/">HOME</a>
-  	<a class="aNav" href="/css/">SERVIZI</a> 
-  	<a class="aNav" href="/js/">CHI SIAMO</a>
-  	<a class="aNav" href="/jquery/">CONTATTACI</a>
-  	<img class="logo" src="FOTO/logo.png">
-</nav>
-<div class="container">
+<div class="topContainer">
 	<div class="div">
     	<h1>IT'S MARKETHINK</h1>	   
     	<p>
-    		Il Marketing non te lo spiegano a scuola, si scopre dopo. Qui abbiamo la <b>Passione</b> per il Marketing e l'abbiamo resa professione.<br>Come da titolo, sfatiamo il mito che Il Marketing sia astrazione e sveliamolo come concretezza e ragionamento e capacità di pensiero.
+    		Come da titolo, sfatiamo il mito che Il Marketing sia astrazione e sveliamolo come concretezza e ragionamento e capacità di pensiero.
     		<br>Per questo...<b>IT'S MARKETHINK!</b>
-    	</p>
+    	</p>  
+    </div>  
+	<div class="icon-bar-responsive">
+	  <a href="" class="facebook"><i class="fa fa-facebook"></i></a> 
+	  <a href="" class="instagram"><i class="fa fa-instagram"></i></a> 
+	  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+	  <a href="" class="youtube"><i class="fa fa-youtube"></i></a> 
+	</div>
+</div>
+
+<div class="midContainer">
+	<img class="img" src="FOTO/P1.jpg">
+	<h1>STILE MODERNO</h1>
+	<p>Il nostro modo di lavorare si distacca dal sistema classico e dalla noia del vecchio. L'obiettivo è creare una strategia che sia adatta a te ma che sia <b>al passo con i tempi</b></p>
+</div>
+<!-- 
+<div class="smallContainer">
+	<div class="div">
+    	<h1>Chi siamo</h1>	   
+    	<a class="aButton" href="chisiamo.html">CHI SIAMO</a>
     </div>
+</div>
+
+<div class="smallContainer">
+	<div class="div">
+    	<h1>Servizi</h1>	   
+ 	  	<a class="aButton" href="servizi.html">SERVIZI</a>  
+    </div>
+</div>
+<div class="smallContainer">
+	<div class="div">
+    	<h1>Contattaci</h1>	   
+  		<a class="aButton" href="">CONTATTACI</a>
+    </div>
+</div>
+ -->
+<div class="midContainer">
     <div class="div">
-    	<h1>COSA OFFRIAMO</h1>   		
+    	<h1>COSA OFFRIAMO</h1>   	
 		<table>
 		  <tr>
 		    <th style="width: 33.3%">Basic</th>
@@ -68,6 +102,9 @@
 		  </tr>
 		</table>
 	</div>
+</div>
+<div class="midContainer">
+ 
 	<div class="div">
     	<h1>IL NOSTRO TEAM</h1>	   
 	    <div class="card">
@@ -91,12 +128,16 @@
 		    <h5>Architect & Engineer</h5>
           </div>
         </div>
-    </div>
-<footer>
-	<div>
-    	<a class="aContattaci" href="mailto:someone@example.com">CONTATTACI</a>
-	</div>
-   </div>
-</footer>
+    </div>   
+</div>
+
+<script type="text/javascript">
+  function hoverDiv( ){
+   document.getElementById('div').style.backgroundColor = "#0f0";
+  }
+  function outDiv( ){
+   document.getElementById('div').style.backgroundColor = "#f00";
+  }
+</script>
 </body>
 </html>
